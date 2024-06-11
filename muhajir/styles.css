@@ -1,0 +1,481 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+   
+    transition: background-color 0.3s, color 0.3s;
+    background-image: url('COM.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+}
+
+
+
+main {
+    padding: 2rem;
+}
+/*
+section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+*/
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+/* Gallery and Certificates */
+.gallery-item, .certificate-item {
+    margin-bottom: 2rem;
+}
+
+.gallery-item img, .certificate-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Light Theme */
+body.light-mode {
+    background-color: #ffffff;
+    color: #333;
+}
+
+body.light-mode header {
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode nav a, body.light-mode #theme-toggle {
+    color: #333;
+}
+
+body.light-mode #theme-toggle {
+    border-color: #333;
+}
+#home{
+
+  
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  100vh;
+    margin: 0px;
+    padding: 0px;
+    width:1290PX;
+    margin-bottom: 170px;
+
+    
+
+}
+.ME{
+    padding:40PX;
+}
+
+/*this is i took from the former*/
+
+
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+nav ul li a:hover{
+color: blue;
+cursor: auto;
+}
+.heading{
+ 
+    padding: 0px;
+}
+.ME{
+    padding: 30PX;
+}
+.class{
+    display: flex;
+    padding: 40px;
+}
+h1{
+    padding-left: 50px;
+
+}
+.MY{
+    color: black;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+.NAME{
+    color: rgb(9, 9, 243);
+    font-size: 60px;
+    font-style: italic;
+}
+.SOFTWARE{
+    color: rgb(123, 233, 13);
+    font-size: 60px;
+}
+.is{
+    color: #eb1792;
+    font-size: 60px;
+    font-family: fantasy;
+}
+.MUHAJIR{
+    color: rgb(16, 124, 219);
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.IM{
+   padding-left: 160px;
+   color: #09a137;
+   font-size: 60px;
+}
+.DEVELOPER{
+    padding-left: 180px;
+    color: rgb(221, 67, 11);
+    font-size: 60px;
+   padding-top: 40px;
+   text-shadow: #1309a1;
+   font-weight: 700;
+   font-style: oblique;
+  
+}
+.ENGINEER{
+    display: flex;
+}
+#about{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 30px;
+margin-bottom: 0;
+    background-image: url('muh.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+   
+}
+#contact{
+  
+    background-size: cover;
+}
+.green{
+    color: #09a137;
+}
+.clarification{
+    background: #000;
+    padding: 15px;
+}
+.CV{
+    text-decoration: none;
+}
+.about-head{
+
+padding-top: 120px;
+text-align: center;
+border: solid;
+border-color: #333;
+color: black;
+background-color: white;
+border-style: bold;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+font-size: 60px;
+font-weight: 900;
+
+
+}
+.color{
+    color: black;
+   font-weight: bold;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.about-second{
+    text-align: center;
+}
+.pa1{
+    padding: 0px 50px;
+    font-size: 40px;
+    font-weight: 600;
+   
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    color: black;
+}
+
+.pa2{
+    padding: 0px 50px;
+font-size: 40px;
+font-weight: 600;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+}
+.pa3{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 50px;
+    color: black;
+}
+#skills{
+    margin:0;
+    padding: 0;
+    
+    background-color: whitesmoke;
+
+}
+.SKILL{
+    text-align: center;
+    border: solid;
+    padding: 25;
+    color: black;
+    background-color:#333;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-style: none;
+    background-image: url('tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    font-size: 80px;
+
+}
+.clarification{
+    text-align: center;
+    color: #1309a1;
+}
+.hard-skills{
+ 
+    color: green;
+    padding: 30px 100px;
+    font-size: 50px;
+    
+}
+.sk{
+    margin-left: 50px;
+}
+.sk li {
+  padding-left: 50px;
+  list-style-type: square ;
+  padding-right: 700px;
+  padding-top: 0;
+  color: black;
+font-size: 40px;
+    
+}
+.cont{
+display: flex;
+text-justify: auto;
+}
+.DIV{
+    display: flex;
+}
+
+.soft{
+    padding-top: 30px ;
+    color: rgb(35, 8, 184);
+    font-size: 50px;
+    padding-left: 700px;
+
+}
+
+.so li{
+padding-left: 0px;
+list-style: square;
+color: black;
+font-size: 40px;
+}
+
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 1rem); /* 4 images per row */
+    max-width: calc(25% - 1rem);
+    box-sizing: border-box;
+    height: 50%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.POTO{
+    text-align: center;
+    border: solid;
+    border-radius: 25px;
+    border-style: none;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #0fb92b;
+}
+.gallery-item{
+    border: solid;
+    border-width: 5px 5px;
+    
+    background-color: #be1313;
+    border-style: none;
+
+}
+.gallery{
+    background-color: #09a137;
+}
+.CRTI{
+    text-align: center;
+    border: solid;
+    border-style: none;
+    padding:25px;
+    background-color: #ca76a7;
+   
+
+}
+
+
+
+
+/*below this is the media query area so don't */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: 0.5rem 0;
+    }
+    
+    section {
+        padding: 2rem 1rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    form input, form textarea {
+        width: 100%;
+    }
+}
+
+    

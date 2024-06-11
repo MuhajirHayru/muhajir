@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+ 
+ 
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+   
+}
+.hood{
+   /* margin-bottom: 0px;*/
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+nav ul li a:hover{
+color: blue;
+cursor: auto;
+}
+.heading{
+ 
+    padding: 0px;
+}
+.ME{
+    padding: 30PX;
+}
+.class{
+    display: flex;
+    padding: 40px;
+}
+h1{
+    padding-left: 50px;
+
+}
+.MY{
+    color: rgb(255, 215, 0);
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+.NAME{
+    color: rgb(9, 9, 243);
+    font-size: 60px;
+    font-style: italic;
+}
+.SOFTWARE{
+    color: rgb(123, 233, 13);
+    font-size: 60px;
+}
+.is{
+    color: #eb1792;
+    font-size: 60px;
+    font-family: fantasy;
+}
+.MUHAJIR{
+    color: rgb(16, 124, 219);
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.IM{
+   padding-left: 160px;
+   color: #09a137;
+   font-size: 60px;
+}
+.DEVELOPER{
+    padding-left: 180px;
+    color: rgb(221, 67, 11);
+    font-size: 60px;
+   padding-top: 40px;
+   text-shadow: #1309a1;
+   font-weight: 700;
+   font-style: oblique;
+  
+}
+.ENGINEER{
+    display: flex;
+}
